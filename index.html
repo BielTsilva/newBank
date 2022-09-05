@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/main.css">
+    <link rel="stylesheet" href="./Styles/styles/section.css">
+    <link rel="stylesheet" href="./Styles/styles/modals.css">
+    <title>NewBank</title>
+</head>
+<body>
+    <div class="container">
+        <nav id="navigationBar" class="navigation">
+
+            <div class="iconCharacter">
+                <label for="checkInput"><img src="./svg/navIcons/iconPerson.svg" alt="Icon of a person" class="iconPerson"></label>
+                <input type="checkbox" name="checkInput" id="checkInput" class="checkInput">
+
+                <ul class="menuOff" id="menu">
+                            <button class="btn" id="button">X</button>
+                            <li class="dataContainer" id="dataContainer">
+                                
+                                <ul class="userData" id="userData">
+                                    <li><img class="profileOptions" src="./svg/optionsIcons/iconImg.svg" alt="Profile image"></li>
+                                    <li><h4> Username </h4></li>
+                                </ul>
+
+                                <ul class="accountData" id="accountData">
+                                    <div>
+                                        <li>Agência 1234 </li>
+                                        <li>Banco 0260  </li>    
+                                    </div>
+
+                                    <div>
+                                        <li>Conta 12345678-9</li>
+                                        <li>New Payments S.A. -Instituição de Pagamento </li>
+                                    </div>
+                                </ul>
+
+                                <ul class="moreOptions">
+                                    <li>
+                                        <button class="btnOptions" id="insuranceBtn">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/iconHeart.svg" alt="Heart icon">
+                                            Seguro de vida 
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button class="btnOptions">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/IconBell.svg" alt="Bell icon">
+                                            Notificações 
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button class="btnOptions">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/iconQuestion.svg">
+                                            Me ajuda 
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>
+
+
+                                    <li>
+                                        <button class="btnOptions">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/IconShield.svg" alt="Shield icon">
+                                            Segurança
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="btnOptions">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/iconPerson.svg" alt="Icon of a person">
+                                            Editar dados do perfil
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>
+                                    
+                                    <li>
+                                        <button class="btnOptions">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/iconCard.svg" alt="Card icon">
+                                            Configurar cartão
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>
+
+                                    <li>
+                                        <button class="btnOptions">
+                                            <img class="iconsOptions" src="./svg/optionsIcons/IconReturn.svg" alt="Return icon arrow">
+                                            Sair
+                                            <img src="./svg/optionsIcons/iconArrow.svg">
+                                        </button>
+                                    </li>  
+
+                                </ul>
+
+                            </li>
+             
+                </ul>
+            </div>
+
+            <div class="optionsContainer">
+                <ul class="options">
+                    <li>
+                        <label for="checkDayse"><img id="theySee" src="./svg/navIcons/iconEye.svg" alt="Eye Icon" class="img-options"></label>
+                        <input id="checkDayse" type="checkbox" class="checkInput">
+                    </li>
+                    <li>
+                        <img src="./svg/navIcons/iconQuestion.svg" alt="Help Icon" class="img-question">
+                    </li>
+                    <li>
+                        <img src="./svg/navIcons/iconPersonPlus.svg" alt="Icon of a person with a plus signal" class="img-options">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h2 class="greetings"> Olá, User </h2>
+    </div>
+
+    <section class="datas">
+        <div class="title">
+            <h1>Conta </h1>
+           <button class="btn"><img src="./svg/optionsIcons/iconArrow.svg"></button>
+        </div>
+        
+        <div class="value">
+            <h4 id="hideValue">R$ 10.000</h4>
+        </div>
+
+        <nav class="nav-menu">
+            <ul>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconPix.svg">
+                        </button>
+                    </div>
+                    <p>Área pix</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconBarCode.svg">
+                        </button>
+                    </div>
+                    <p>Pagar</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconTransf.svg">
+                        </button>
+                    </div>
+                    <p>Transferir</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconPig.svg">
+                        </button>
+                    </div>
+                    <p>Depositar</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconMobile.svg">
+                        </button>
+                    </div>
+                    <p>Recarga</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconCoin.svg">
+                        </button>
+                    </div>
+                    <p>Cobrar</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconHeart.svg">
+                        </button>
+                    </div>
+                    <p>Doação</p>
+                </li>
+                <li class="card">
+                    <div>
+                        <button class="card-button">
+                            <img class="card-img" src="./svg/accountIcons/iconUp.svg">
+                        </button>
+                    </div>
+                    <p>Investir</p>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <div class="datas">
+        <button class="card-section-button">
+            <img src="./svg/optionsIcons/iconCard.svg"> <span>Meus cartões</span> 
+        </button>
+    </div>
+    <hr>
+
+    <section class="datas">
+        <div class="title">
+            <h3>Cartão de crédito </h3>
+           <button class="btn"><img src="./svg/optionsIcons/iconArrow.svg"></button>
+        </div>
+        
+        <div class="value">
+            <span class="informations">Fatura atual</span>
+            <div class="value">R$ 3.000</div>
+            <span class="informations">Limite disponível de <i>R$ 1.500</i> </span>
+        </div>
+        <button class="btn-credit">Parcelar compras</button>
+    </section>
+
+    <!-- Modals -->
+
+    <div class="modalOff" id="modal">
+        <div class="content">
+            <header>
+                <h1>Seguro de vida</h1>
+                
+            </header>
+            <section>
+                <p>
+                    Deseja contratar nosso seguro de vida ? 
+                    custo: 4 R$ mensais 
+                </p>
+                <br>
+                <i>Concorra a prêmios mensais de até 50.000 R$ </i>
+            </section>
+            <footer>
+                <button id="closeModal"> Cancelar </button>
+                <button id="acceptContract"> Contratar </button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="./scripts/menus/sideMenu.js"></script>
+    <script src="./scripts/buttons/secure.js"></script>
+    <script src="./scripts/menus/navMenu.js"></script>
+</body>
+</html>

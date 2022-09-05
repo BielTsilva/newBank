@@ -1,0 +1,49 @@
+.modalOff{
+    display: none;
+}
+
+.modalOn{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalOn .content{
+    background-color: #d3d3d3;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalOn .content h1{
+    margin: 1rem;
+}
+
+.modalOn .content section{
+    padding: 1rem;
+    font-size: larger;
+}
+
+.modalOn .content button{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(130,10,209);
+    color: white;
+    border-radius: 8rem;
+    border: none;
+}
+
+.modalOn .content button:hover{
+    cursor: pointer;
+    background-color: rgba(129, 10, 209, 0.685);
+}
